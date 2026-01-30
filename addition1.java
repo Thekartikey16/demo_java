@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class addition1 {
+    public static void main(String[] args) {
+        
+        Scanner S = new Scanner(System.in);
+1
+        System.out.println("Enter the first number:");
+        int num1 = S.nextInt(); 
+        System.out.println("Enter the second number:");
+        int num2 = S.nextInt(); 
+        int sum = num1 + num2;
+        System.out.println("Sum = " + sum);
+        
+        S.close(); 
+    }
+}

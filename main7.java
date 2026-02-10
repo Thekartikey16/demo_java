@@ -5,6 +5,7 @@ class Default{
 }
 public class main7 {
     public static void main(String[] args) {
-        Default D = new Default();
+        Default D= new Default();
+        System.out.println(D);
     }
 }

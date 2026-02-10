@@ -14,6 +14,7 @@ class StaticExample{
 public class main5 {
     public static void main(String[] args) {
         StaticExample SE= new StaticExample();
+        System.out.println(SE);
         // SE.normal();
         StaticExample.show();
     }
